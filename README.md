@@ -3,8 +3,8 @@
 
 **Dependencies:**
 List of dependencies used:
-- 'CreateJS'
-- 'EaselJS'
+- `CreateJS`
+- `EaselJS`
 
 ## Run
 You can clone the repository using git or just manually download the files.
