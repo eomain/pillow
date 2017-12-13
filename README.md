@@ -2,8 +2,8 @@
 ## Blue bouncing balls in javascript.
 
 **Dependencies:***
-    -'CreateJS'
-    -'EaselJS'
+- 'CreateJS'
+- 'EaselJS'
 
 ## Run
 ```bash
