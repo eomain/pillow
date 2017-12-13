@@ -31,7 +31,7 @@ function Circle(size, position){
     }
     
     this.set_color = function (value){
-        this.circle;
+        this.graphics.beginFill(value);
     }
     
     this.move = function(x, y){
