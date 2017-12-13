@@ -2,10 +2,12 @@
 ## Blue bouncing balls in javascript.
 
 **Dependencies:**
+List of dependencies used:
 - 'CreateJS'
 - 'EaselJS'
 
 ## Run
+You can clone the repository using git or just manually download the files.
 ```bash
 # Clone the repository
 git clone https://github.com/eomain/pillow
