@@ -1,5 +1,5 @@
 # pillow
-## Blue bouncing balls in javascript.
+Blue bouncing balls in javascript.
 
 **Dependencies:**
 
