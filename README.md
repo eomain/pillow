@@ -2,6 +2,7 @@
 ## Blue bouncing balls in javascript.
 
 **Dependencies:**
+
 List of dependencies used:
 - `CreateJS`
 - `EaselJS`
