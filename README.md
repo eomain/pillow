@@ -8,7 +8,7 @@ List of dependencies used:
 - `EaselJS`
 
 ## Run
-You can clone the repository using git or just manually download the files.
+You can clone the repository using git or just manually download the zip file.
 ```bash
 # Clone the repository
 git clone https://github.com/eomain/pillow
