@@ -15,4 +15,6 @@ git clone https://github.com/eomain/pillow
 # Open in a web browser
 e.g firefox ball.html
 ```
+**Download**
+
 - https://github.com/eomain/pillow/archive/master.zip
