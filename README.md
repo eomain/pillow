@@ -15,4 +15,4 @@ git clone https://github.com/eomain/pillow
 # Open in a web browser
 e.g firefox ball.html
 ```
-- [https://github.com/eomain/pillow/archive/master.zip]
+- https://github.com/eomain/pillow/archive/master.zip
