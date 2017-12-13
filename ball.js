@@ -2,12 +2,13 @@ var stage = new createjs.Stage("canvas");
 createjs.Ticker.on("tick", tick);
 createjs.Ticker.framerate = 60;
 
-var c0 = new Circle(50, 100);
-var c1 = new Circle(200, 500);
-var c2 = new Circle(10, 300);
-var c3 = new Circle(40, 700);
+var c0, c1, c2, c3;
 
 function init(){
+    c0 = new Circle(50, 100);
+    c1 = new Circle(200, 500);
+    c2 = new Circle(10, 300);
+    c3 = new Circle(40, 700);
     c3.set_y(200);
     c3.set_x(800);
 }
