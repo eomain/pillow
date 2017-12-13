@@ -1,11 +1,11 @@
 # pillow
-##Blue bouncing balls in javascript.
+## Blue bouncing balls in javascript.
 
-**Dependencies:
+**Dependencies:***
     -'CreateJS'
     -'EaselJS'
 
-##Run
+## Run
 ```bash
 #Clone the repository
 git clone https://github.com/eomain/pillow
