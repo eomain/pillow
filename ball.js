@@ -5,6 +5,9 @@ createjs.Ticker.framerate = 60;
 var c0, c1, c2, c3;
 
 function init(){
+    stage.canvas.width = window.innerWidth;
+    stage.canvas.heigh = window.innerHeight;
+
     c0 = new Circle(50, 100);
     c1 = new Circle(200, 500);
     c2 = new Circle(10, 300);
@@ -50,14 +53,14 @@ function motion(object, x, y){
     if(x < 0){object.wall = true; x = x*-1;}
     if(y < 0){object.ground = true; y = y*-1;}
     
-    if(object.x == stage.canvas.width){
+    if(object.x >= stage.canvas.width){
         object.wall = true;
     }
     else if(object.x <= 0){
         object.wall = false;
     }
     
-    if(object.y == stage.canvas.height){
+    if(object.y >= stage.canvas.height){
         object.ground = true;
     }
     else if(object.y <= 0){
