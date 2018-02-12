@@ -4,9 +4,17 @@ createjs.Ticker.framerate = 60;
 
 var c0, c1, c2, c3;
 
-function init(){
+window.onresize = function(){
+    stageCanvas();
+}
+
+function stageCanvas(){
     stage.canvas.width = window.innerWidth;
     stage.canvas.height = window.innerHeight;
+}
+
+function init(){
+    stageCanvas();
 
     c0 = new Circle(50, 100);
     c1 = new Circle(200, 500);
